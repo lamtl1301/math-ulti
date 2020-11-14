@@ -12,7 +12,7 @@ package hai.util;
 public class MathUtility {
     //Math này fake JDK
     // JDK có .abs(), .sqrt(), .sin(), .Pi
-    private static final double PI = 3.1415;
+    public static final double PI = 3.1415;
     
     //hàm tính giai thừa n! = 1.2.3.4...n;
     //mình ko tính giai thừa âm
