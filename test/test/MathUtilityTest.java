@@ -23,7 +23,7 @@ public class MathUtilityTest {
         assertEquals(720, getFactorial(6));
         assertEquals(1, getFactorial(0));
     }
-    @Test(expected = SQLException.class ) // kì vọng ném về ngoại lệ
+    @Test(expected = IllegalArgumentException.class ) // kì vọng ném về ngoại lệ
     // nếu đúng ngoại lệ IllegalArgumentException trong tình huống giai thừ -5 thì t có màu xanh
     public void getFactorial_ThrowsException_IfInvalidArgument(){
         getFactorial(-5);
