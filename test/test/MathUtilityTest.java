@@ -21,6 +21,7 @@ public class MathUtilityTest {
     // hàm test
     public void getFactorial_RunsWell_IfValidArgument(){
         assertEquals(720, getFactorial(6));
+        assertEquals(1, getFactorial(0));
     }
     @Test(expected = SQLException.class ) // kì vọng ném về ngoại lệ
     // nếu đúng ngoại lệ IllegalArgumentException trong tình huống giai thừ -5 thì t có màu xanh
