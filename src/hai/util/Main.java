@@ -30,6 +30,8 @@ public class Main {
         System.out.println("-5!: " + getFactorial(-5));
         //in thử PI coi có giống Math.PI hem?
         System.out.println(PI);
+        //comit thu
+        System.out.println("Toi test github");
     }
     
 }
